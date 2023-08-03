@@ -1,15 +1,22 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <main class="about">
+    <article>
+      <p>Copyright &copy; {{ (new Date).getFullYear() }} María Morales Padrón. All rights reserved.</p>
+      <p>Visit <a href="https:mariamorales.dev" target="_blank" rel="noopener">www.mariamorales.dev</a> for more info.</p>
+    </article>
+  </main>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<style scoped>
+main.about {
+  margin-top: 3em;
+  padding: 1em;
 }
+
+main.about article,
+main.about article p {
+  width: 100%; 
+  text-align: center;
+}
+
 </style>

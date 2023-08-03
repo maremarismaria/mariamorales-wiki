@@ -1,85 +1,70 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterLink, RouterView } from 'vue-router';
+
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
+    <nav class="nav">
+      <ul>
+        <li><RouterLink to="/">Home</RouterLink></li>
+        <li><RouterLink to="/about">About</RouterLink></li>
+      </ul>
+    </nav>
   </header>
 
   <RouterView />
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
+<style>
+#app {
+  font-weight: normal;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
+#app header,
+#app header .nav {
   width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
 }
 
-nav a.router-link-exact-active {
-  color: var(--color-text);
+#app header .nav {
+  position: fixed;
+  top: 0;
 }
 
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+#app header .nav ul {
+  list-style: none;
+  padding: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+#app header .nav ul li {
+  width: 100%;
+  cursor: pointer;
+  outline: 1px solid var(--vt-c-divider-dark-2);
 }
 
-nav a:first-of-type {
-  border: 0;
+#app header .nav ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--main-nav-height);
+  width: 100%;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+#app header + main {
+  padding-top: var(--main-nav-height);
+}
+
+@media (hover: hover) {
+  #app header > .nav ul li:hover a:hover {
+    background-color: unset;
   }
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
+  #app header > .nav ul li:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
   }
 }
+
 </style>

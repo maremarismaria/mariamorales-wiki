@@ -1,6 +1,16 @@
 # mariamorales.wiki
 
-This template should help get you started developing with Vue 3 in Vite.
+## Title
+
+María Morales @maremarismaria Wiki
+
+## Description
+
+Set of articles and thoughts about Linguistics, Literature, and Engineering.
+
+## Project Stack
+
+Vue 3 in Vite.
 
 ## Recommended IDE Setup
 
