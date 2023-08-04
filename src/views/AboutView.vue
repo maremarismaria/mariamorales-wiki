@@ -9,7 +9,7 @@ defineOptions({
     <article>
       <img
         class="profile-picture"
-        src="maria.jpg"
+        src="/maria.jpg"
         alt="María Morales profile picture"
         width="140"
         height="140"
