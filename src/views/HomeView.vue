@@ -47,8 +47,12 @@ ul li a {
   letter-spacing: 0.2em;
 }
 
-ul li:nth-child(odd) {
-  background-color: hsla(93, 100%, 37%, 0.3);
+ul li:first-child {
+  background-color: hsla(46, 100%, 82%, 0.6);
+}
+
+ul li:first-child:hover {
+  background-color: hsl(45, 90%, 72%, 0.6);
 }
 
 ul li a {
