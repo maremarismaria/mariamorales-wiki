@@ -1,5 +1,5 @@
 // https://on.cypress.io/api
-import articlesArray from "../../src/utils/philology/articles/articlesArray";
+import articlesArray from "../../../../src/db/utils/philology/articles/articlesArray";
 
 const slug = "/philology/articles";
 
@@ -8,7 +8,7 @@ describe('[articles] Philology', () => {
     cy.visit(slug);
     articlesArray.forEach(({ title, href }) => {
       cy.get('ul li').should('contains', title);
-      cy.get('ul li a').should('have.attr', 'href').and('contains', `slug/${href}`);
+      cy.get('ul li a').should('have.attr', 'href').and('contains', `${slug}/${href}`);
     });
   });
 });

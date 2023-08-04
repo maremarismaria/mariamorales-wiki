@@ -1,5 +1,5 @@
 import type { Article } from "@/types";
-import { articlesDictionary as articles } from "@/utils/philology/articles/articlesDictionary";
+import { articlesDictionary as articles } from "@/db/utils/philology/articles/articlesDictionary";
 
 const slug = "/articles/philology";
 

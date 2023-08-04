@@ -16,6 +16,8 @@ import { RouterLink, RouterView } from "vue-router";
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Kalam&family=VT323&display=swap');
+
 #app {
   font-weight: normal;
 }
@@ -58,15 +60,11 @@ import { RouterLink, RouterView } from "vue-router";
   color: var(--vt-c-black-soft);
   width: 100%;
   font-weight: 500;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1.2em;
 }
 
 #app header + main {
-  padding-top: var(--main-nav-height);
-}
-
-@media (hover: hover) {
-  #app header > .nav ul li:hover {
-    background-color: hsl(45, 90%, 72%);
-  }
+  padding-top: calc(var(--main-nav-height) + 0.6em);
 }
 </style>

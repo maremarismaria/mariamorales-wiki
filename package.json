@@ -1,13 +1,13 @@
 {
   "name": "mariamorales-wiki",
   "private": true,
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Set of articles and thoughts about Linguistics, Literature, and Engineering.",
   "homepage": "https://github.com/maremarismaria/mariamorales-wiki#readme",
   "author": {
     "name": "María Morales",
     "email": "maremarismaria@gmail.com",
-    "url": "https://mariamorales.dev/"
+    "url": "https://mariamorales.site/"
   },
   "funding": {
     "type": "individual",

@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
 import PhilologyView from "@/views/PhilologyView.vue";
 import EngineeringView from "@/views/EngineeringView.vue";
-import philologyArticles from "@/utils/philology/articles/articlesArray";
-import engineeringArticles from "@/utils/engineering/articles/articlesArray";
+import philologyArticles from "@/db/utils/philology/articles/articlesArray";
+import engineeringArticles from "@/db/utils/engineering/articles/articlesArray";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

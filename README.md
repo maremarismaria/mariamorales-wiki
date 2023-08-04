@@ -1,5 +1,9 @@
 # mariamorales.wiki
 
+## Author
+
+María Morales | [mariamorales.site](https://mariamorales.site)
+
 ## Title
 
 María Morales @maremarismaria Wiki

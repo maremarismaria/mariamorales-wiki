@@ -47,8 +47,8 @@ ul li {
 
 ul li a {
   color: var(--vt-c-black-soft);
-  font-weight: 500;
-  letter-spacing: 0.2em;
+  font-size: 1.6em;
+  font-family: 'Cutive Mono', monospace;
 }
 
 ul li:first-child {
@@ -67,10 +67,7 @@ ul li a span {
   width: fit-content;
   height: fit-content;
   padding: 1em;
-  background-color: var(--vt-c-white-soft);
   text-align: center;
-  font-style: italic;
   font-weight: bold;
-  box-shadow: 2px 2px 1px 1px hsl(0, 0%, 50%, 0.5);
 }
 </style>
