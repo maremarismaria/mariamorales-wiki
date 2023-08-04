@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
 import PhilologyView from "@/views/PhilologyView.vue";
+import EngineeringView from "@/views/EngineeringView.vue";
 import philologyArticles from "@/utils/philology/articles/articlesArray";
+import engineeringArticles from "@/utils/engineering/articles/articlesArray";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,7 +23,11 @@ const router = createRouter({
     },
     {
       path: "/engineering/articles",
-      redirect: "/",
+      name: "engineering_articles",
+      component: EngineeringView,
+      props: {
+        articles: engineeringArticles,
+      },
     },
     {
       path: "/about",

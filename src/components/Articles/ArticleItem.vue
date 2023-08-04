@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import type { Article } from "@/types";
-// import DocumentationIcon from '@/components/icons/IconDocumentation.vue';
 
 interface Props {
   article: Article;
@@ -10,7 +9,6 @@ defineProps<Props>();
 
 defineOptions({
   name: "ArticleItem",
-  // components: { DocumentationIcon },
 });
 </script>
 
@@ -23,7 +21,7 @@ defineOptions({
     <details open>
       <summary>
         <h3 class="title">
-          <a :href="article.href" target="_blank" rel="noopener">{{ article.title }}</a>
+          <a :href="article.href" target="_blank">{{ article.title }}</a>
         </h3>
         <p class="subtitle" v-if="article.en_title">{{ article.en_title }}</p>
       </summary>
@@ -36,12 +34,30 @@ defineOptions({
 </template>
 
 <style scoped>
+
+.article-item:not(:last-child) {
+  margin-bottom: 1.8em;
+}
+
 .article-item details {
   display: inline-block;
 }
 
+.article-item details > summary {
+  list-style: none;
+}
+
+.article-item details > summary::-webkit-details-marker {
+  display: none;
+}
+
 .article-item .title {
   display: inline-block;
+  
+}
+
+.article-item .title a {
+  text-decoration: underline;
 }
 
 .article-item .tags {

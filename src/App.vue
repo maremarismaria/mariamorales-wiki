@@ -41,14 +41,14 @@ import { RouterLink, RouterView } from "vue-router";
 #app header .nav ul li {
   width: 100%;
   cursor: pointer;
-  background-color: hsla(161, 63%, 54%, 0.5);
-  /**
-    outline: 1px solid hsla(93, 100%, 37%, 0.2);
-  **/
+  background-color: hsla(45, 90%, 72%, 0.8);
 }
 
 #app header .nav ul li:first-child {
   background-color: hsla(46, 100%, 82%, 0.6);
+  box-shadow: 2.5px 0 0 0px gray;
+  overflow: hidden;
+  display: inline-block;
 }
 
 #app header .nav ul li a {
@@ -66,12 +66,8 @@ import { RouterLink, RouterView } from "vue-router";
 }
 
 @media (hover: hover) {
-  #app header > .nav ul li:hover a:hover {
-    background-color: unset;
-  }
-
   #app header > .nav ul li:hover {
-    background-color: hsla(160, 100%, 37%, 0.6);
+    background-color: hsl(45, 90%, 72%);
   }
 }
 </style>

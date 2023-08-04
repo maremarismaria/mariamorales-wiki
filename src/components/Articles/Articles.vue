@@ -30,7 +30,7 @@ defineOptions({
     This articles are licensed under a
     <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
       >Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a
-    >.
+    >. If you are interested, visit <RouterLink to="/about">"About"</RouterLink> page for more info.
   </aside>
 </template>
 

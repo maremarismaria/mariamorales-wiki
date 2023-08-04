@@ -9,10 +9,14 @@ defineOptions({
     <nav class="nav">
       <ul>
         <li>
-          <RouterLink to="/philology/articles">Philology</RouterLink>
+          <RouterLink to="/philology/articles">
+            <span>Philology</span>
+          </RouterLink>
         </li>
         <li>
-          <RouterLink to="/engineering/articles">Engineering</RouterLink>
+          <RouterLink to="/engineering/articles">
+            <span>Engineering</span>
+          </RouterLink>
         </li>
       </ul>
     </nav>
@@ -51,18 +55,22 @@ ul li:first-child {
   background-color: hsla(46, 100%, 82%, 0.6);
 }
 
-ul li:first-child:hover {
-  background-color: hsl(45, 90%, 72%, 0.6);
-}
-
 ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
+}
+
+ul li a span {
+  width: fit-content;
+  height: fit-content;
   padding: 1em;
+  background-color: var(--vt-c-white-soft);
   text-align: center;
   font-style: italic;
+  font-weight: bold;
+  box-shadow: 2px 2px 1px 1px hsl(0, 0%, 50%, 0.5);
 }
 </style>
