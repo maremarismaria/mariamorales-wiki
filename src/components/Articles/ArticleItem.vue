@@ -21,6 +21,7 @@ defineOptions({
     <details open>
       <summary>
         <h3 class="title">
+          <span>📝&nbsp;</span>
           <a :href="article.href" target="_blank">{{ article.title }}</a>
         </h3>
         <p class="subtitle" v-if="article.en_title">{{ article.en_title }}</p>
