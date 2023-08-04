@@ -35,7 +35,6 @@ defineOptions({
 </template>
 
 <style scoped>
-
 .article-item:not(:last-child) {
   margin-bottom: 1.8em;
 }
@@ -55,7 +54,6 @@ defineOptions({
 
 .article-item .title {
   display: inline-block;
-  
 }
 
 .article-item .title a {
@@ -68,7 +66,6 @@ defineOptions({
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-
 }
 
 .article-item .tags .tag {

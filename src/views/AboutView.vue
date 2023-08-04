@@ -19,10 +19,27 @@ defineOptions({
       <article class="profile-links-article">
         <h2>📌 Links</h2>
         <ul class="profile-links">
-          <li>🌐 Website: <a href="http://mariamorales.site/" target="_blank">www.mariamorales.site</a></li>
-          <li>🎨 Creative Coding: <a href="https://codepen.io/maremarismaria" target="_blank" rel="noreferrer">Codepen</a></li>
-          <li>🐛 Telegram Channel: <a href="https://t.me/stuff_front/" target="_blank" rel="noreferrer">Front stuff</a></li>
-          <li>📁 (this) Website repository: <a href="https://github.com/maremarismaria/mariamorales-wiki" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li>
+            🌐 Website:
+            <a href="http://mariamorales.site/" target="_blank">www.mariamorales.site</a>
+          </li>
+          <li>
+            🎨 Creative Coding:
+            <a href="https://codepen.io/maremarismaria" target="_blank" rel="noreferrer">Codepen</a>
+          </li>
+          <li>
+            🐛 Telegram Channel:
+            <a href="https://t.me/stuff_front/" target="_blank" rel="noreferrer">Front stuff</a>
+          </li>
+          <li>
+            📁 (this) Website repository:
+            <a
+              href="https://github.com/maremarismaria/mariamorales-wiki"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+          </li>
         </ul>
       </article>
       <a href="https://ko-fi.com/K3K2LNBAX" target="_blank">
