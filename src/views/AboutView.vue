@@ -23,5 +23,6 @@ main.about article,
 main.about article p {
   width: 100%;
   text-align: center;
+  color: var(--vt-c-black-soft);
 }
 </style>

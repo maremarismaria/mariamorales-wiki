@@ -44,5 +44,6 @@ defineOptions({
   text-align: center;
   max-width: 400px;
   margin: 3em auto;
+  color: var(--vt-c-black-soft);
 }
 </style>

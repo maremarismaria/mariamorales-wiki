@@ -38,7 +38,17 @@ ul {
 ul li {
   width: 100%;
   height: 100%;
-  background-color: hsla(93, 100%, 37%, 0.1);
+  background-color: hsla(93, 100%, 37%, 0.2);
+}
+
+ul li a {
+  color: var(--vt-c-black-soft);
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+
+ul li:nth-child(odd) {
+  background-color: hsla(93, 100%, 37%, 0.3);
 }
 
 ul li a {
@@ -49,5 +59,6 @@ ul li a {
   height: 100%;
   padding: 1em;
   text-align: center;
+  font-style: italic;
 }
 </style>

@@ -5,6 +5,10 @@
   font-weight: normal;
 }
 
+details summary { 
+  cursor: pointer;
+}
+
 a,
 .green {
   text-decoration: none;

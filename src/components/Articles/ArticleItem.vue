@@ -20,11 +20,11 @@ defineOptions({
       <slot name="icon" class="icon"></slot>
     </i>
 
-    <details>
+    <details open>
       <summary>
-        <p class="title">
+        <h3 class="title">
           <a :href="article.href" target="_blank" rel="noopener">{{ article.title }}</a>
-        </p>
+        </h3>
         <p class="subtitle" v-if="article.en_title">{{ article.en_title }}</p>
       </summary>
       <ul class="tags" v-if="article.tags">
@@ -49,12 +49,13 @@ defineOptions({
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .article-item .tags .tag {
   font-style: italic;
   font-weight: 200;
-  color: var(--vt-c-text-dark-2);
+  color: var(--vt-c-black-soft);
 }
 
 .article-item .tags .tag:not(:last-child) {
