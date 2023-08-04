@@ -30,5 +30,5 @@ server: {
     open: true,
     cors: true,
 },
-base: './',
+base: '/',
 })
