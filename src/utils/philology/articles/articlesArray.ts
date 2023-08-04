@@ -20,7 +20,8 @@ export default [
   },
   {
     href: `${baseURL}/${slug}/${articles["La_tradicion_clasica_en_De_Institutione_Feminae_Christianae"]}`,
-    title: "La tradición clásica en 'De Institutione Feminae Christianae' de Juan Luis Vives. Estudio de las figuras femeninas mitológico-literarias",
+    title:
+      "La tradición clásica en 'De Institutione Feminae Christianae' de Juan Luis Vives. Estudio de las figuras femeninas mitológico-literarias",
     tags: [
       "TFG",
       "Juan Luis Vives",
