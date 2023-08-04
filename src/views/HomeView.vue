@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-    name: 'HomeView',
+  name: "HomeView",
 });
 </script>
 
@@ -50,5 +50,4 @@ ul li a {
   padding: 1em;
   text-align: center;
 }
-
 </style>

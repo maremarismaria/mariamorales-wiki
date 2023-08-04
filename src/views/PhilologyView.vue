@@ -3,26 +3,26 @@ import type { Article } from "@/types";
 import Articles from "@/components/Articles/Articles.vue";
 
 interface Props {
-  articles: Article[]
+  articles: Article[];
 }
 
 defineProps<Props>();
 
 defineOptions({
-    name: 'PhilologyView',
-    components: { Articles },
+  name: "PhilologyView",
+  components: { Articles },
 });
 </script>
 
 <template>
-    <main class="philology">
-        <Articles :articles="articles"/>
-    </main>
+  <main class="philology">
+    <Articles :articles="articles" />
+  </main>
 </template>
 
 <style scoped>
 main.philology {
-    margin-top: 3em;
-    padding: 1em;
+  margin-top: 3em;
+  padding: 1em;
 }
 </style>

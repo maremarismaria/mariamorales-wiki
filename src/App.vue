@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router';
-
+import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
@@ -66,5 +65,4 @@ import { RouterLink, RouterView } from 'vue-router';
     background-color: hsla(160, 100%, 37%, 0.2);
   }
 }
-
 </style>
