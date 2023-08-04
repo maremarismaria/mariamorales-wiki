@@ -46,8 +46,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 #app header .nav ul li:first-child {
   background-color: hsla(46, 100%, 82%, 0.6);
-  box-shadow: 2.5px 0 0 0px gray;
-  overflow: hidden;
+  box-shadow: 2.5px -1px 0 0px gray;
   display: inline-block;
 }
 

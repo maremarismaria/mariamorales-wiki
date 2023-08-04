@@ -46,6 +46,7 @@ defineOptions({
 
 .article-item details > summary {
   list-style: none;
+  margin-bottom: 0.5em;
 }
 
 .article-item details > summary::-webkit-details-marker {
@@ -67,12 +68,17 @@ defineOptions({
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+
 }
 
 .article-item .tags .tag {
+  font-size: small;
   font-style: italic;
-  font-weight: 200;
-  color: var(--vt-c-black-soft);
+  color: hsla(0, 0%, 50%, 0.8);
+  background-color: hsla(0, 0%, 50%, 0.2);
+  padding: 0.1em 0.3em;
+  border-radius: 6px;
+  margin-bottom: 0.4em;
 }
 
 .article-item .tags .tag:not(:last-child) {
