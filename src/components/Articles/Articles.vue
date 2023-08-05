@@ -37,6 +37,7 @@ defineOptions({
 <style scoped>
 .articles {
   list-style: none;
+  padding-inline-start: unset;
 }
 
 .articles + .license {

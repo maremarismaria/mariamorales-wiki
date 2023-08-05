@@ -35,8 +35,14 @@ defineOptions({
 </template>
 
 <style scoped>
+.article-item {
+  position: relative;
+  padding: 2em 1em 4em;
+  border-radius: 2px;
+}
+
 .article-item:not(:last-child) {
-  margin-bottom: 1.8em;
+  border-bottom: 1px solid rgba(235, 235, 235, 0.64);
 }
 
 .article-item details {
@@ -54,6 +60,7 @@ defineOptions({
 
 .article-item .title {
   display: inline-block;
+  margin-bottom: 1.5em;
 }
 
 .article-item .title a {
@@ -66,6 +73,8 @@ defineOptions({
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  gap: 0.2em 0.4em;
+  padding-left: unset;
 }
 
 .article-item .tags .tag {
@@ -73,12 +82,8 @@ defineOptions({
   font-style: italic;
   color: hsla(0, 0%, 50%, 0.8);
   background-color: hsla(0, 0%, 50%, 0.2);
-  padding: 0.1em 0.3em;
+  padding: 0.2em 0.8em;
   border-radius: 6px;
   margin-bottom: 0.4em;
-}
-
-.article-item .tags .tag:not(:last-child) {
-  margin-right: 1em;
 }
 </style>

@@ -94,17 +94,8 @@ main.about p.profile-bio {
 }
 
 .profile-links-article {
-  background-color: hsla(75, 16%, 65%, 0.1);
-  outline: 1px solid hsla(75, 16%, 65%, 0.5);
   border-radius: 2px;
-  padding: 1em;
   margin-bottom: 2.5em;
-}
-
-.profile-links-article ul.profile-links {
-  list-style: none;
-  margin-bottom: unset;
-  text-align: left;
 }
 
 .profile-links-article h2 {
@@ -113,8 +104,18 @@ main.about p.profile-bio {
   margin-bottom: 0.6em;
 }
 
+.profile-links-article ul.profile-links {
+  list-style: none;
+  margin-bottom: unset;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
 .profile-links-article ul.profile-links li {
   max-width: fit-content;
+  background-color: hsla(0, 0%, 96%, 1);
+  padding: 1em;
 }
 
 footer {
