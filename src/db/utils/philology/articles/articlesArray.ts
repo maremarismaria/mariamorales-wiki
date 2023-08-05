@@ -9,7 +9,7 @@ export default [
     tags: [
       "Ph.D.",
       "Philology",
-      "Applied Linguistics",
+      "Linguistics",
       "Greece",
       "Latin",
       "Greek",
@@ -47,6 +47,70 @@ export default [
     ],
   },
   {
+    href: `${slug}/De_institutione_feminae_Christianae,_La_perfecta_casada_y_la_figura_femenina_en_el_matrimonio_del_primer_Siglo_de_Oro.pdf`,
+    title: "'De institutione feminae Christianae', 'La perfecta casada' y la figura femenina en el matrimonio del primer Siglo de Oro",
+    tags: [
+      "Essay",
+      "Juan Luis Vives",
+      "Fray Luis De León",
+      "Renaissance Literature",
+      "Latin",
+      "Greek",
+      "Greece",
+      "Women",
+      "Marriage",
+      "Mithology",
+      "Religion",
+      "Conduct books",
+    ],
+  },
+  {
+    href: `${slug}/Enseñanza_de_ELE_Mochila_ELE_y_Bitácora.pdf`,
+    title: "Estudio de los referentes culturales en dos manuales de enseñanza de ELE: Mochila ELE y Bitácora",
+    tags: [
+      "Essay",
+      "Linguistics",
+      "ELE",
+      "Culture",
+      "Education",
+      "Foreign Languages",
+    ],
+  },
+  {
+    href: `${slug}/Introducion_a_la_literatura_del_siglo_XX.pdf`,
+    title: "Introducion a la literatura del siglo XX",
+    tags: [
+      "Notes",
+      "Spanish Literature",
+      "Contemporary Literature"
+    ],
+  },
+  {
+    href: `${slug}/Novecentismo_y_Vanguardia.pdf`,
+    title: "Literatura Contemporánea. Novecentismo y Vanguardia",
+    tags: [
+      "Notes",
+      "Ramón Gómez de la Serna",
+      "El doctor inverosímil",
+      "Spanish Literature",
+      "Spanish Avant-Garde",
+      "Pablo Corbalán",
+      "Ramonismo",
+    ],
+  },
+  {
+    href: `${slug}/Literatura_de_Posguerra.pdf`,
+    title: "Literatura Contemporánea. Literatura de Posguerra",
+    tags: [
+      "Notes",
+      "Spanish Literature",
+      "Spanish Civil War (1936-1939)",
+      "Spanish State",
+      "Francoist Spain",
+      "Post-war Francoist",
+    ],
+  },
+  {
     href: `${slug}/El_discurso_performativo_de_Ramon_Gomez_de_la_Serna_una_aproximacion.pdf`,
     title: "El discurso performativo de Ramón Gómez de la Serna: una aproximación",
     tags: [
@@ -57,6 +121,17 @@ export default [
       "Film",
       "Spanish Language",
       "Theatre",
+      "Avant-Garde",
+    ],
+  },
+  {
+    href: `${slug}/Ejemplo_de_Recension_El_Doctor_Inverosimil.pdf`,
+    title: "Ejemplo de Recension: El Doctor Inverosímil",
+    tags: [
+      "Essay",
+      "Ramón Gómez de la Serna",
+      "Ramonismo",
+      "Spanish Literature",
       "Avant-Garde",
     ],
   },
@@ -111,4 +186,18 @@ export default [
     title: "Greguerías",
     tags: ["Writings", "Greguería", "Ramón Gómez de la Serna"],
   },
+  {
+    href: `${slug}/Beatus_ille.pdf`,
+    title: "Beatus ille",
+    tags: ["Writings", "Poem" , "Topic", "Poetry", "Creation Techniques"],
+  },
+  {
+    href: `${slug}/Ejercicios_de_Latin.pdf`,
+    title: "Latín",
+    tags: ["Playground", "Latin", "Translation", "Latin Vulgar", "Sintaxis", "Text Analysis"],
+  },  {
+    href: `${slug}/Notas_sobre_Literatura_Universal.pdf`,
+    title: "Notas sobre Literatura Universal ",
+    tags: ["Notes", "Universal Literature", "Greek Literature", "Nacionalism"],
+  },  
 ] as Article[];
