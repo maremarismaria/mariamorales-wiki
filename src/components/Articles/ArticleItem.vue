@@ -22,7 +22,8 @@ defineOptions({
       <summary>
         <h3 class="title">
           <span>📝&nbsp;</span>
-          <a :href="article.href" target="_blank">{{ article.title }}</a>
+          <a :href="article.href" target="_blank" v-if="article.href" class="title">{{ article.title }}</a>
+          <span v-else class="title">{{ article.title }}</span>
         </h3>
         <p class="subtitle" v-if="article.en_title">{{ article.en_title }}</p>
       </summary>
@@ -60,7 +61,8 @@ defineOptions({
 
 .article-item .title {
   display: inline-block;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
+  color: lightseagreen;
 }
 
 .article-item .title a {
