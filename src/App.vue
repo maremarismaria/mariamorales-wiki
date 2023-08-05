@@ -16,7 +16,7 @@ import { RouterLink, RouterView } from "vue-router";
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Kalam&family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Kalam&family=VT323&display=swap");
 
 #app {
   font-weight: normal;
@@ -60,7 +60,7 @@ import { RouterLink, RouterView } from "vue-router";
   color: var(--vt-c-black-soft);
   width: 100%;
   font-weight: 500;
-  font-family: 'Cutive Mono', monospace;
+  font-family: "Cutive Mono", monospace;
   font-size: 1.2em;
 }
 

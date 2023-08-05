@@ -48,7 +48,7 @@ ul li {
 ul li a {
   color: var(--vt-c-black-soft);
   font-size: 1.6em;
-  font-family: 'Cutive Mono', monospace;
+  font-family: "Cutive Mono", monospace;
 }
 
 ul li:first-child {
