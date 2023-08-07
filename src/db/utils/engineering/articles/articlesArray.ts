@@ -7,9 +7,14 @@ export default [
     tags: ["Summary", "Front-End", "Testing", "Engineering"],
   },
   {
-    href: "https://gist.github.com/maremarismaria/f7b268cb8bc3b35ef1bd937bcbbfbd86",
-    title: "Introduction to SVG",
-    tags: ["WIP", "Summary", "Introduction", "HTML", "SVG", "React", "SVG Component"],
+    href: "https://github.com/maremarismaria/country-picker",
+    title: "Country Picker Component with Nunjucks, SCSS, JavaScript & Webpack",
+    tags: ["Nunjucks", "JavaScript", "ES6", "Webpack", "Component", "Templating", "Fragments", "Assets", "JSON", "DOMContentLoaded", "HtmlWebpackPlugin", "Babel"],
+  },
+  {
+    href: "https://gist.github.com/maremarismaria/cd736535fd2279fd3741a18707b93d8f",
+    title: "Animating a level bar: how to use refs for forcing React to re-render when the SVG defs are updated by the State",
+    tags: ["React", "Advanced", "Animation", "SVG", "TypeScript", "State", "componentDidUpdate", "React.Component", "MutableRefObject", "Refs", "linear-gradient" ],
   },
   {
     href: "https://codepen.io/maremarismaria/pen/oNgjrOw",
@@ -116,5 +121,10 @@ export default [
       "Pseudo-elements",
       "Hover",
     ],
+  },
+  {
+    href: "https://gist.github.com/maremarismaria/f7b268cb8bc3b35ef1bd937bcbbfbd86",
+    title: "Introduction to SVG",
+    tags: ["WIP", "Summary", "Introduction", "HTML", "SVG", "React", "SVG Component"],
   },
 ] as Article[];
