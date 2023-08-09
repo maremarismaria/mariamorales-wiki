@@ -59,9 +59,8 @@ defineOptions({
 </template>
 
 <style scoped>
-main.about,
-footer {
-  margin-top: 6em;
+main.about {
+  margin-top: 3.5em;
   padding: 1em;
 }
 
@@ -121,5 +120,7 @@ main.about p.profile-bio {
 footer {
   color: var(--vt-c-indigo);
   text-align: center;
+  margin-top: 6em;
+  padding: 1em;
 }
 </style>

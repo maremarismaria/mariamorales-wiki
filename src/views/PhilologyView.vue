@@ -22,6 +22,11 @@ defineOptions({
 </template>
 
 <style scoped>
+main.philology {
+  margin-top: 3.5em;
+  padding: 1em;
+}
+
 h1 {
   padding: 1em 0;
   text-align: center;

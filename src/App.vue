@@ -27,11 +27,6 @@ import { RouterLink, RouterView } from "vue-router";
   width: 100%;
 }
 
-#app header .nav {
-  position: fixed;
-  top: 0;
-}
-
 #app header .nav ul {
   list-style: none;
   padding: unset;
@@ -64,7 +59,4 @@ import { RouterLink, RouterView } from "vue-router";
   font-size: 1.2em;
 }
 
-#app header + main {
-  padding-top: calc(var(--main-nav-height) + 0.6em);
-}
 </style>
