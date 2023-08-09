@@ -25,11 +25,11 @@ defineOptions({
           </li>
           <li>
             🎨 Creative Coding:
-            <a href="https://codepen.io/maremarismaria" target="_blank" rel="noreferrer">Codepen</a>
+            <a href="https://codepen.io/maremarismaria" target="_blank" rel="noreferrer">CodePen</a>
           </li>
           <li>
             🐛 Telegram Channel:
-            <a href="https://t.me/stuff_front/" target="_blank" rel="noreferrer">Front stuff</a>
+            <a href="https://t.me/stuff_front/" target="_blank" rel="noreferrer">Front Stuff</a>
           </li>
           <li>
             📁 (this) Website repository:
@@ -60,8 +60,7 @@ defineOptions({
 
 <style scoped>
 main.about {
-  margin-top: 3.5em;
-  padding: 1em;
+  margin-top: 4.5em;
 }
 
 main.about article,
@@ -69,6 +68,10 @@ main.about {
   width: 100%;
   text-align: center;
   color: var(--vt-c-black-soft);
+}
+
+main.about > article {
+  padding: 1em 0 3em 0;
 }
 
 main.about img.profile-picture {
@@ -106,21 +109,40 @@ main.about p.profile-bio {
 .profile-links-article ul.profile-links {
   list-style: none;
   margin-bottom: unset;
+  justify-content: flex-start;
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5em;
+  flex-direction: column;
+  gap: 0.8em;
+  padding-left: unset;
+  padding: 2em 1em;
+  background-color: hsla(179, 97%, 15%, 0.1);
+  box-shadow: inset 0 -4px 4px 0 hsla(179, 97%, 15%, 0.1);
 }
 
 .profile-links-article ul.profile-links li {
   max-width: fit-content;
   background-color: hsla(0, 0%, 96%, 1);
   padding: 1em;
+  border-radius: 1em;
+  outline: 1px solid hsla(179, 97%, 15%, 0.1);
+}
+
+.profile-links-article ul.profile-links li a {
+  font-weight: bold;
 }
 
 footer {
+  width: 100%;
+  height: 32px;
   color: var(--vt-c-indigo);
   text-align: center;
-  margin-top: 6em;
-  padding: 1em;
+  background-color: var(--vt-c-black);
+  color: var(--vt-c-white-soft);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
