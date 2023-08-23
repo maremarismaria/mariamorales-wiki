@@ -58,5 +58,4 @@ import { RouterLink, RouterView } from "vue-router";
   font-family: "Cutive Mono", monospace;
   font-size: 1.2em;
 }
-
 </style>

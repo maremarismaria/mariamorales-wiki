@@ -6,22 +6,13 @@ export default [
   {
     href: "",
     title: "unknown",
-    tags: [
-      "Ph.D.",
-      "Philology",
-      "Linguistics",
-      "Greece",
-      "Latin",
-      "Greek",
-      "Inheritance",
-      "Foundations",
-    ],
+    tags: ["PhD", "Philology", "Linguistics", "Phonetics", "Greece", "Athens", "Modern Greek"],
   },
   {
     href: `${slug}/Ramon_Gomez_de_la_Serna_Greguerias_y_otros_divertimentos_en_la_radio_y_el_cine.pdf`,
     title: "Ramón Gómez de la Serna: Greguerías y otros divertimentos en la radio y el cine",
     tags: [
-      "Final Master's Project (TFM)",
+      "Final Master's Project",
       "Contemporary Literature",
       "Ramón Gómez de la Serna",
       "Greguerías",
@@ -35,7 +26,7 @@ export default [
     title:
       "La tradición clásica en 'De Institutione Feminae Christianae' de Juan Luis Vives. Estudio de las figuras femeninas mitológico-literarias",
     tags: [
-      "Bachelor's Thesis (TFG)",
+      "Bachelor's Thesis",
       "Juan Luis Vives",
       "Renaissance Literature",
       "Latin",
