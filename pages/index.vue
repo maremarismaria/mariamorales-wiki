@@ -1,33 +1,33 @@
 <script lang="ts">
-import Vue from 'vue'
-import BaseLayout from '@/components/layouts/BaseLayout.vue'
+import Vue from "vue";
+import BaseLayout from "@/components/layouts/BaseLayout.vue";
 
 export default Vue.extend({
-  name: 'IndexPage',
+  name: "IndexPage",
   components: {
-    BaseLayout
-  },
-})
+    BaseLayout,
+  }
+});
 </script>
 
 <template>
   <BaseLayout class="home">
-      <template v-slot:main>
-        <nav class="nav">
-          <ul>
-            <li>
-              <NuxtLink to="/articles/philology">
-                <span>Philology</span>
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink to="/articles/engineering">
-                <span>Engineering</span>
-              </NuxtLink>
-            </li>
-          </ul>
-        </nav>
-      </template>
+    <template #main>
+      <nav class="nav">
+        <ul>
+          <li>
+            <NuxtLink to="/articles/philology">
+              <span>Philology</span>
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/articles/engineering">
+              <span>Engineering</span>
+            </NuxtLink>
+          </li>
+        </ul>
+      </nav>
+    </template>
   </BaseLayout>
 </template>
 

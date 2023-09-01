@@ -1,18 +1,18 @@
 <script lang="ts">
-import Vue from 'vue'
-import BaseLayout from '@/components/layouts/BaseLayout.vue'
+import Vue from "vue";
+import BaseLayout from "@/components/layouts/BaseLayout.vue";
 
 export default Vue.extend({
-  name: 'AboutPage',
+  name: "AboutPage",
   components: {
     BaseLayout,
-  },
-})
+  }
+});
 </script>
 
 <template>
   <BaseLayout class="about">
-    <template v-slot:main>
+    <template #main>
       <img class="profile-picture" src="/maria.jpg" alt="María Morales profile picture" width="140" height="140" />
       <h1 class="profile-name">María Morales</h1>
       <p class="profile-bio">Spanish Philologist, Front-End Engineer, UX/UI & More</p>
@@ -38,8 +38,13 @@ export default Vue.extend({
         </ul>
       </section>
       <a href="https://ko-fi.com/K3K2LNBAX" target="_blank">
-        <img height="36" style="border: 0px; height: 36px" src="https://storage.ko-fi.com/cdn/kofi4.png?v=3" border="0"
-          alt="Buy Me a Coffee at ko-fi.com" />
+        <img
+          height="36"
+          style="border: 0px; height: 36px"
+          src="https://storage.ko-fi.com/cdn/kofi4.png?v=3"
+          border="0"
+          alt="Buy Me a Coffee at ko-fi.com"
+        />
       </a>
     </template>
   </BaseLayout>

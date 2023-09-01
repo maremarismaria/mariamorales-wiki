@@ -1,9 +1,9 @@
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
 
 export default Vue.extend({
-  name: 'BaseLayout',
-})
+  name: "BaseLayout",
+});
 </script>
 
 <template>
@@ -13,22 +13,23 @@ export default Vue.extend({
         <nav class="nav">
           <ul>
             <li>
-              <NuxtLink to="/">Home</NuxtLink>
+              <NuxtLink to="/"> Home </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/about">About</NuxtLink>
+              <NuxtLink to="/about"> About </NuxtLink>
             </li>
           </ul>
         </nav>
       </slot>
     </header>
     <main class="main">
-      <slot name="main"></slot>
+      <slot name="main" />
     </main>
     <footer class="footer">
       <slot name="footer">
         <footer>
-          <p>&copy; {{ new Date().getFullYear() }} <NuxtLink to="/about">María Morales</NuxtLink>. All rights reserved.
+          <p>
+            &copy; {{ new Date().getFullYear() }} <NuxtLink to="/about"> María Morales </NuxtLink>. All rights reserved.
           </p>
         </footer>
       </slot>
