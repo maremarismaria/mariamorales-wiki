@@ -47,8 +47,8 @@ const articlesList: Article[] = [
     ],
   },
   {
-    href: "1/2 Pong Game with JavaScript Canvas",
-    title: "Pacman in CSS",
+    href: "https://codepen.io/maremarismaria/pen/ZEVOoxZ",
+    title: "1/2 Pong Game with JavaScript Canvas",
     tags: [
       "Game",
       "2D",
