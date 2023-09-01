@@ -47,6 +47,31 @@ const articlesList: Article[] = [
     ],
   },
   {
+    href: "1/2 Pong Game with JavaScript Canvas",
+    title: "Pacman in CSS",
+    tags: [
+      "Game",
+      "2D",
+      "JavaScript",
+      "Canvas",
+      "Listeners",
+    ],
+  },
+  {
+    href: "https://codepen.io/maremarismaria/pen/gOZMzXx",
+    title: "Pacman in CSS",
+    tags: [
+      "Illustration",
+      "CSS",
+      "Pacman",
+      "Animation",
+      "@keyframes",
+      "Position",
+      "Shapes",
+      "Border",
+    ],
+  },
+  {
     href: "https://gist.github.com/maremarismaria/cd736535fd2279fd3741a18707b93d8f",
     title:
       "Animating a bar made with SVG: how to deal with reactivity, React refs & SVG 'defs' elements",
