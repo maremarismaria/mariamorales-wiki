@@ -7,3 +7,10 @@ export type Article = {
   tags?: string[]
   date?: Date
 }
+
+export interface State {
+  articles: {
+    philology: Article[]
+    engineering: Article[]
+  }
+}

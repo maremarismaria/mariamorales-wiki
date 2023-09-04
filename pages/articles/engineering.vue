@@ -1,15 +1,21 @@
 <script lang="ts">
 import Vue from "vue";
+import { mapGetters } from "vuex";
+import { Article } from "@/migration/types";
 import Articles from "@/components/Articles/Articles.vue";
-import articlesList from "@/migration/db/utils/engineering/articles/articlesList";
 import BaseLayout from "@/components/layouts/BaseLayout.vue";
 
 export default Vue.extend({
   name: "EngineeringPage",
   components: { BaseLayout, Articles },
-  setup() {
-    return { articles: articlesList };
-  }
+  computed: {
+    articles(): Article[] {
+      return this.getEngineeringArticles || [];
+    },
+    ...mapGetters({
+      getEngineeringArticles: "articles/getEngineeringArticles",
+    }),
+  },
 });
 </script>
 

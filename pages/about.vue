@@ -6,38 +6,72 @@ export default Vue.extend({
   name: "AboutPage",
   components: {
     BaseLayout,
-  }
+  },
 });
 </script>
 
 <template>
   <BaseLayout class="about">
     <template #main>
-      <img class="profile-picture" src="/maria.jpg" alt="María Morales profile picture" width="140" height="140" />
+      <img
+        class="profile-picture"
+        src="/maria.jpg"
+        alt="María Morales profile picture"
+        width="140"
+        height="140"
+      />
       <h1 class="profile-name">María Morales</h1>
-      <p class="profile-bio">Spanish Philologist, Front-End Engineer, UX/UI & More</p>
+      <p class="profile-bio">
+        Spanish Philologist, Front-End Engineer, UX/UI & More
+      </p>
       <section class="profile-links-article">
         <h2>📌 Links</h2>
         <ul class="profile-links">
           <li>
             🌐 Website:
-            <a href="http://mariamorales.site/" target="_blank">www.mariamorales.site</a>
+            <a
+              href="http://mariamorales.site/"
+              target="_blank"
+            >
+              www.mariamorales.site
+            </a>
           </li>
           <li>
             🎨 Creative Coding:
-            <a href="https://codepen.io/maremarismaria" target="_blank" rel="noreferrer">CodePen</a>
+            <a
+              href="https://codepen.io/maremarismaria"
+              target="_blank"
+              rel="noreferrer"
+            >
+              CodePen
+            </a>
           </li>
           <li>
             🐛 Telegram Channel:
-            <a href="https://t.me/stuff_front/" target="_blank" rel="noreferrer">Front Stuff</a>
+            <a
+              href="https://t.me/stuff_front/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Front Stuff
+            </a>
           </li>
           <li>
             📁 (this) Website repository:
-            <a href="https://github.com/maremarismaria/mariamorales-wiki" target="_blank" rel="noreferrer">GitHub</a>
+            <a
+              href="https://github.com/maremarismaria/mariamorales-wiki"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
           </li>
         </ul>
       </section>
-      <a href="https://ko-fi.com/K3K2LNBAX" target="_blank">
+      <a
+        href="https://ko-fi.com/K3K2LNBAX"
+        target="_blank"
+      >
         <img
           height="36"
           style="border: 0px; height: 36px"

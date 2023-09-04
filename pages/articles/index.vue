@@ -3,7 +3,7 @@ export default {
   name: "ArticlesPage",
   mounted() {
     location.replace(`${location.protocol}//${location.host}`);
-  }
+  },
 };
 </script>
 

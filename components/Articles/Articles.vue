@@ -1,36 +1,36 @@
 <script lang="ts">
-import Vue from 'vue'
-import { PropType } from 'vue/types'
-import { Article } from "@/migration/types"
-import ArticleItem from "@/components/Articles/ArticleItem.vue"
+import Vue from "vue";
+import { PropType } from "vue/types";
+import { Article } from "@/migration/types";
+import ArticleItem from "@/components/Articles/ArticleItem.vue";
 
 interface Props {
   articles: Article[]
 }
 
 export default Vue.extend({
-  name: 'Articles',
+  name: "Articles",
   components: { ArticleItem },
   props: {
     articles: {
       type: Array as PropType<Article[]>,
       required: true,
-    }
+    },
   },
   setup(props: Props) {
     if (!props.articles || !props.articles.length) {
-      return { articles: [] }
+      return { articlesList: [] };
     }
 
-    return { articles: props.articles }
+    return { articlesList: props.articles };
   },
-})
+});
 </script>
 
 <template>
   <section>
     <ul class="articles">
-      <ArticleItem v-for="article in articles" :key="article.href" :article="article"> </ArticleItem>
+      <ArticleItem v-for="article in articlesList" :key="article.href" :article="article"/>
     </ul>
 
   <aside class="license">
