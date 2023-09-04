@@ -48,6 +48,7 @@ export default Vue.extend({
 }
 
 #__layout header .nav ul {
+  width: 100%;
   list-style: none;
   padding: unset;
   display: flex;
@@ -56,7 +57,7 @@ export default Vue.extend({
 }
 
 #__layout header .nav ul li {
-  width: 100%;
+  width: 50%;
   cursor: pointer;
   background-color: hsla(45, 90%, 72%, 0.8);
 }
