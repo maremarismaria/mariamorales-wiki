@@ -1,4 +1,4 @@
-import type { Article } from "@/migration/types"
+import type { Article } from "@/migration/types";
 
 const articlesList: Article[] = [
   {
@@ -170,8 +170,13 @@ const articlesList: Article[] = [
   },
   {
     href: "https://codepen.io/maremarismaria/pen/poNwMvV",
-    title: "Loading Dots in SCSS",
-    tags: ["Util", "SCSS", "Pseudo-elements", "@keyframes", "Content", "Animation"],
+    title: "Animated Ellipsis in SCSS",
+    tags: ["Util", "SCSS", "Pseudo-elements", "@keyframes", "Content", "Animation", "Ellipsis"],
+  },
+  {
+    href: "https://gist.github.com/maremarismaria/f7b268cb8bc3b35ef1bd937bcbbfbd86",
+    title: "Introduction to SVG",
+    tags: ["WIP", "Summary", "Introduction", "HTML", "SVG", "React", "SVG Component"],
   },
   {
     href: "https://codepen.io/maremarismaria/pen/eYzJJYq",
@@ -227,11 +232,6 @@ const articlesList: Article[] = [
       "Hover",
     ],
   },
-  {
-    href: "https://gist.github.com/maremarismaria/f7b268cb8bc3b35ef1bd937bcbbfbd86",
-    title: "Introduction to SVG",
-    tags: ["WIP", "Summary", "Introduction", "HTML", "SVG", "React", "SVG Component"],
-  },
-]
+];
 
-export default articlesList
+export default articlesList;

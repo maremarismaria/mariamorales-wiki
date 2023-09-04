@@ -15,13 +15,15 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Set of articles and thoughts about Linguistics, Literature, and Engineering.",
+        content:
+          "Set of articles and thoughts about Linguistics, Literature, and Engineering.",
       },
       { name: "format-detection", content: "telephone=no" },
       { name: "og:title", content: "María Morales @maremarismaria Wiki" },
       {
         name: "og:description",
-        content: "Set of articles and thoughts about Linguistics, Literature, and Engineering.",
+        content:
+          "Set of articles and thoughts about Linguistics, Literature, and Engineering.",
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
@@ -57,7 +59,7 @@ export default {
         preload: false,
         download: true,
         base64: false,
-      }
+      },
     ],
   ],
 
@@ -66,4 +68,4 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-}
+};

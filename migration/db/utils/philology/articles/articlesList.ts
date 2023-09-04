@@ -1,6 +1,6 @@
-import type { Article } from "@/migration/types"
+import type { Article } from "@/migration/types";
 
-const slug = "/articles/philology"
+const slug = "/articles/philology";
 
 const articlesList: Article[] = [
   {
@@ -157,6 +157,6 @@ const articlesList: Article[] = [
     title: "Notas sobre Literatura Universal ",
     tags: ["Notes", "Universal Literature", "Greek Literature", "Nacionalism"],
   },
-]
+];
 
-export default articlesList
+export default articlesList;

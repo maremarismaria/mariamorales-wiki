@@ -13,10 +13,10 @@ export default Vue.extend({
         <nav class="nav">
           <ul>
             <li>
-              <NuxtLink to="/"> Home </NuxtLink>
+              <NuxtLink to="/">Home</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/about"> About </NuxtLink>
+              <NuxtLink to="/about">About</NuxtLink>
             </li>
           </ul>
         </nav>
@@ -27,11 +27,11 @@ export default Vue.extend({
     </main>
     <footer class="footer">
       <slot name="footer">
-        <footer>
-          <p>
-            &copy; {{ new Date().getFullYear() }} <NuxtLink to="/about"> María Morales </NuxtLink>. All rights reserved.
-          </p>
-        </footer>
+        <p>
+          &copy; {{ new Date().getFullYear() }}
+          <NuxtLink to="/about">María Morales</NuxtLink>
+          . All rights reserved.
+        </p>
       </slot>
     </footer>
   </article>
