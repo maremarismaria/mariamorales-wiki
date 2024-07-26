@@ -2,7 +2,7 @@
 
 ## Author
 
-María Morales | [mariamorales.site](http://mariamorales.site/)
+María Morales | [mariamorales.dev](http://mariamorales.dev/)
 
 ## Title
 
