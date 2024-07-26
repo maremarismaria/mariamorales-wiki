@@ -4,11 +4,6 @@ const slug = "/articles/philology";
 
 const articlesList: Article[] = [
   {
-    href: "",
-    title: "unknown",
-    tags: ["PhD", "Philology", "Linguistics", "Phonetics", "Greece", "Athens", "Modern Greek"],
-  },
-  {
     href: `${slug}/Ramon_Gomez_de_la_Serna_Greguerias_y_otros_divertimentos_en_la_radio_y_el_cine.pdf`,
     title: "Ramón Gómez de la Serna: Greguerías y otros divertimentos en la radio y el cine",
     tags: [
