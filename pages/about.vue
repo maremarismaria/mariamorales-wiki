@@ -22,7 +22,7 @@ export default Vue.extend({
       />
       <h1 class="profile-name">María Morales</h1>
       <p class="profile-bio">
-        Spanish Philologist, Front-End Engineer, UX/UI & More
+        Spanish Philologist & Front-End Developer
       </p>
       <section class="profile-links-article">
         <h2>📌 Links</h2>
@@ -30,10 +30,10 @@ export default Vue.extend({
           <li>
             🌐 Website:
             <a
-              href="http://mariamorales.site/"
+              href="http://mariamorales.dev/"
               target="_blank"
             >
-              www.mariamorales.site
+              www.mariamorales.dev
             </a>
           </li>
           <li>
