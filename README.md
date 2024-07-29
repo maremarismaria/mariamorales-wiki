@@ -12,8 +12,6 @@ María Morales @maremarismaria Wiki
 
 Set of articles and thoughts about Linguistics, Literature, and Engineering.
 
----
-
 ## Project Stack
 
 Vue 3 in Nuxt & Vuex.
