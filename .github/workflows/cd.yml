@@ -36,7 +36,7 @@ jobs:
       - name: ✅ Test
         run: npm run test
       - name: 🏗 Build
-        run: npm run build
+        run: npm run generate
       - name: ⚙️ Setup Pages
         uses: actions/configure-pages@v2
       - name: ⬆️ Upload artifact
